@@ -10,7 +10,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 function greet(u){
   let text=u.split(':');
-  let sen="";
+  var sen="";
   let time=parseInt(text, 10);
   if (time<12){
     sen="Good Morning";}
@@ -24,6 +24,7 @@ function greet(u){
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
-function displayMessage(){
-  document.getElementById('greeting').innerText=sen
+function displayMessage(ss){
+  ss=sen
+  document.getElementById('greeting').innerText=ss
 }
