@@ -24,7 +24,6 @@ function greet(u){
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
-function displayMessage(ss){
-  ss=sen
-  document.getElementById('greeting').innerText=ss
+function displayMessage(sen){
+  document.getElementById('greeting').innerText=sen
 }
